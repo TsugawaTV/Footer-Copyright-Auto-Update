@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Using getElementById</title>
+</head>
+<body>
+<main>
+  <p>Hello 2021</p>
+</main>
+<footer>
+  <p>&copy; 2007 &ndash; <span id="year"></span> Your Company</p>
+</footer>
+<script>document.getElementById("year").innerHTML = new Date().getFullYear();</script>
+</body>
+</html>
